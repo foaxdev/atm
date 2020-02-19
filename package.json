@@ -1,0 +1,25 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "9.7.4",
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-csso": "4.0.1",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-terser": "1.2.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
+  }
+}
